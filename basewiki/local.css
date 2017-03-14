@@ -1,3 +1,14 @@
 /* ikiwiki local style sheet */
 
 /* Add local styling here, instead of modifying style.css. */
+.navbar-dark .navbar-nav .nav-item.nav-link a {
+    color: rgba(255,255,255,.5);
+}
+.navbar-nav .nav-item.nav-link {
+    padding: .2em;
+}
+.navbar-nav .nav-item.nav-link a {
+    display: block;
+    padding-top: .425rem;
+    padding-bottom: .425rem;
+}

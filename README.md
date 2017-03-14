@@ -1,6 +1,7 @@
 # Changes
 
 * add MirrorMark for markdown edit
+* fix nav link
 
 # Ikistrap, a Bootstrap 4 theme for ikiwiki
 
