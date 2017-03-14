@@ -8,7 +8,7 @@
     padding: .2em;
 }
 .navbar-nav .nav-item.nav-link a {
-    display: block;
+    display: inline-block;
     padding-top: .425rem;
     padding-bottom: .425rem;
 }
