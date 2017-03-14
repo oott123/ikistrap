@@ -14,6 +14,7 @@
 <TMPL_VAR FIELD-PAGE>
 <TMPL_VAR FIELD-TYPE>
 </TMPL_IF>
+
 <div class="editcontentdiv">
 	<TMPL_VAR FIELD-EDITCONTENT><br />
 </div>
@@ -92,3 +93,26 @@
 	<TMPL_VAR PAGE_DIFF>
 </div>
 </TMPL_IF>
+<!-- mirror mark -->
+<style>
+.mirrormark-toolbar .blockquote {
+    padding: inherit;
+    margin-bottom: inherit;
+    font-size: inherit;
+    border-left: inherit;
+}
+.editcontentdiv .cm-s-mirrormark {
+    padding: 0;
+    margin: 4%;
+}
+</style>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href="//cdnjs.cloudflare.com/ajax/libs/codemirror/5.0.0/codemirror.css" rel="stylesheet" />
+<link href="https://bowercdn.net/c/mirrormark-1.0.1/dist/css/mirrormark.min.css" rel="stylesheet" />
+<script src="https://bowercdn.net/c/mirrormark-1.0.1/dist/js/mirrormark.package.min.js"></script>
+<script>
+var mm = mirrorMark(document.getElementById('editcontent'), {
+    showToolbar: true
+});
+mm.render();
+</script>

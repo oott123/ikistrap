@@ -1,3 +1,7 @@
+# Changes
+
+* add MirrorMark for markdown edit
+
 # Ikistrap, a Bootstrap 4 theme for ikiwiki
 
 [Ikiwiki](https://ikiwiki.info/) is a very powerful [wiki](https://en.wikipedia.org/wiki/Wiki) compiler.
@@ -13,3 +17,4 @@ To use ikistrap in your own wiki, just add the following to your setup file:
 Ikistrap comes with an example wiki that shows off its features,
 and shows you how to integrate some Bootstrap 4 features into your `.mdwn` files.
 Use the `Makefile` to compile the example wiki.
+
